@@ -5,11 +5,28 @@ var bykeIndex;
 bykeIndex = [
 
     {
-        'model' = 'type0',
-        'wheight' = 6
+        'model':'type0',
+        'wheight': 6
     },
     {
-        'model'
+        'model' : 'type1',
+        'wheight' : 7,
+    },
+    {
+        'model' : 'type2',
+        'wheight' : 5.2,
+    },
+    {
+        'model' : 'type3',
+        'wheight' : 6.9,
+    },
+    {
+        'model' : 'type4',
+        'wheight' : 8.1,
+    },
+    {
+        'model' : 'type5',
+        'wheight' : 5.1,
     }
 
-]
+];
