@@ -30,3 +30,7 @@ bykeIndex = [
     }
 
 ];
+
+// test visualizzazione array
+
+console.log(bykeIndex);
