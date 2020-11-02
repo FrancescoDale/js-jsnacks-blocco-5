@@ -6,27 +6,27 @@ bykeIndex = [
 
     {
         'model':'type0',
-        'wheight': 6
+        'weight': 6
     },
     {
         'model' : 'type1',
-        'wheight' : 7,
+        'weight' : 7,
     },
     {
         'model' : 'type2',
-        'wheight' : 5.2,
+        'weight' : 5.2,
     },
     {
         'model' : 'type3',
-        'wheight' : 6.9,
+        'weight' : 6.9,
     },
     {
         'model' : 'type4',
-        'wheight' : 8.1,
+        'weight' : 8.1,
     },
     {
         'model' : 'type5',
-        'wheight' : 5.1,
+        'weight' : 5.1,
     }
 
 ];
@@ -43,7 +43,7 @@ console.log(bykeIndex[0]);
 
 // ciclo for che scorre l'array
 for (var i = 0; i < bykeIndex.length; i++) {
-    if(bykeIndex[i].wheight < lighterByke.wheight) {
+    if(bykeIndex[i].weight < lighterByke.weight) {
         lighterByke = bykeIndex[i];
     }
 }
