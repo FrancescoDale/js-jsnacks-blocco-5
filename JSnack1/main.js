@@ -34,3 +34,9 @@ bykeIndex = [
 // test visualizzazione array
 
 console.log(bykeIndex);
+
+var lighterByke; // variabile che prenderà il valore della bicicletta più leggera. la variabile cambierà valore grazie ad un ciclo for che via via le assegna un valore minore di quello della posizione 0 nell'array
+
+lighterByke = bykeIndex[0];
+
+console.log(bykeIndex[0]);
