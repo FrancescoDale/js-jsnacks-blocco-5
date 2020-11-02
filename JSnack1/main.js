@@ -40,3 +40,12 @@ var lighterByke; // variabile che prenderà il valore della bicicletta più legg
 lighterByke = bykeIndex[0];
 
 console.log(bykeIndex[0]);
+
+// ciclo for che scorre l'array
+for (var i = 0; i < bykeIndex.length; i++) {
+    if(bykeIndex[i].wheight < lighterByke.wheight) {
+        lighterByke = bykeIndex[i];
+    }
+}
+
+console.log(lighterByke);
