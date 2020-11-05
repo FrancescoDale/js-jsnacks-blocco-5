@@ -50,7 +50,7 @@ var limiteSup = parseInt(prompt('Inserire il limite superiore ( numeri da 0 a 9 
 
 // provo ad usare la funzione slice
 
-
+outputIndex.push(nameIndex.slice(limiteInf,limiteSup));
 
 //console.log
 
