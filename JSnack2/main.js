@@ -2,7 +2,7 @@
 var nameIndex;
 
 // array dove vengono inseriti gli oggetti che fanno parte dell'intervallo scelto dall'utente
-var outputIndex;
+var outputIndex = [];
 
 nameIndex = [
 
@@ -48,4 +48,7 @@ for (var i = limiteInf ; i < limiteSup; i++) {
     outputIndex.push(nameIndex[i]);
 }
 
-//
+//console.log
+
+console.log(nameIndex);
+console.log(outputIndex);
