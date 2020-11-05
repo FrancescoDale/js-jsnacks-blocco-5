@@ -44,9 +44,13 @@ var limiteSup = parseInt(prompt('Inserire il limite superiore ( numeri da 0 a 9 
 
 //ciclo per inserire nel nuovo array la porzione di array principale selezionata dall'utente
 
-for (var i = limiteInf ; i < limiteSup; i++) {
-    outputIndex.push(nameIndex[i]);
-}
+// for (var i = limiteInf ; i < limiteSup; i++) {
+//     outputIndex.push(nameIndex[i]);
+// }
+
+// provo ad usare la funzione slice
+
+
 
 //console.log
 
