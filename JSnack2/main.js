@@ -37,3 +37,7 @@ nameIndex = [
 ];
 
 //chiedo all'utente di inserire due numeri interi compresi tra 0 e numero di oggetti dell'array ( in questo caso è 9 )
+
+var limiteInf = prompt('Inserire il limite inferiore ( numeri da 0 a 9 ) : ');
+
+var limiteSup = prompt('Inserire il limite superiore ( numeri da 0 a 9 ) : ');
