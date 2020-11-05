@@ -41,3 +41,11 @@ nameIndex = [
 var limiteInf = prompt('Inserire il limite inferiore ( numeri da 0 a 9 ) : ');
 
 var limiteSup = prompt('Inserire il limite superiore ( numeri da 0 a 9 ) : ');
+
+//ciclo per inserire nel nuovo array la porzione di array principale selezionata dall'utente
+
+for (var i = limiteInf ; i < limiteSup; i++) {
+    outputIndex.push(nameIndex[i]);
+}
+
+//
