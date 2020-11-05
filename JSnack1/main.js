@@ -6,7 +6,7 @@ bykeIndex = [
 
     {
         'model':'type0',
-        'weight': 6
+        'weight': 6,
     },
     {
         'model' : 'type1',
